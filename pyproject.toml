@@ -7,3 +7,9 @@ requires-python = ">=3.12,<3.13"
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests"]
+
+[tool.pyrefly]
+python-interpreter-path = "C:/ProgramData/miniconda3/envs/reading-agent/python.exe"
+project-includes = ["app/**/*.py", "scripts/**/*.py", "tests/**/*.py"]
+project-excludes = ["**/__pycache__", "data/**"]
+search-path = ["."]
